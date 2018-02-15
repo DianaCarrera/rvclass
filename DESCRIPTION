@@ -1,0 +1,21 @@
+Package: rvclass
+Type: Package
+Title: Implementation of a supervised classification algorithm based on
+        regular vine copulas
+Version: 0.1.0
+Date: 2018-02-09
+Authors@R: c(person("Diana", "Roberto", "Jose A.", role = c("aut",
+        "cre", "cre"), email = "dianacarrerasoto@gmail.com"))
+Description: Description: A collection of functions that implement a supervised classification algorithm based
+    on regular vine copulas. The package includes functions for the specification, learning, 
+    prediction, validation and evaluation of regular vine-based classifiers.
+License: GPL (>= 2)
+Depends: R (>= 2.10.0)
+Imports: stats
+Suggests: testthat
+LazyData: TRUE
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2018-02-15 10:40:06 UTC; diana
+Author: Diana Jose A. Roberto [aut, cre, cre]
+Maintainer: Diana Jose A. Roberto <dianacarrerasoto@gmail.com>
