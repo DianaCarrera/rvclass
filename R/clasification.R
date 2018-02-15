@@ -52,8 +52,8 @@ rvClassifier <- function(data, prob, n, vine, copula, margin, tree, k, nRuns)
 #' @param margin a vector that specifies the marginal family of each class.
 #' @param tree a vector that specifies the number of trees in the vine of each class.
 #' @return \code{vector} a list with the models (a model = vine + margins) that have been specified for each class.
-#' @export rvSpecified
-#' @aliases rvSpecified
+#' @export rvSpecify
+#' @aliases rvSpecify
 rvSpecify <- function(n, vine, margin, tree)
 {
    vector <- list()

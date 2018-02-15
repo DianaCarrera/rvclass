@@ -49,7 +49,7 @@ margin <- c(rep(MARGIN_NORMAL,nc))
 tree <- c(rep(1,nc))
 copula <- list(c(COPULA_NORMAL),c(COPULA_NORMAL))
 
-models <- rvSpecified(n, vine, margin, tree)
+models <- rvSpecify(n, vine, margin, tree)
 trainModel <- rvLearn(data[[1]], models, copula)
 }
 
