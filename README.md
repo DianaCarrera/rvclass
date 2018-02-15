@@ -65,7 +65,7 @@ install.packages(path.tar.gz.file, reps=NULL)
 where `path.tar.gz.file` refers to the path of the downloaded file. Note that these files may not be up to date.
 
 
-## How to cite DEAP
+## How to cite rvclass
 To reference this package, you can use the cite of the following paper.
 
 ```xml
