@@ -7,10 +7,16 @@ The R-vine copula can be represented graphically by a set of nested trees where 
 
 The flexibility of the R-vine copula lies in the fact that pair-copulas of different families can be combined in the same graph. This property can be exploited to solve classification problems where the type of bivariate interactions show a great variability. 
 
-We have applied R-vine classifiers in two real-world classification problems: The mind Reading and dune classification Problem (MRP and DCP respectively) reaching good classification results in both cases. 
+We have applied R-vine classifiers to two real-world classification problems: The mind Reading[2,1] and dune classification Problem[2] (MRP and DCP respectively) reaching good classification results in both cases. 
 
-We have tested this package with a maximum of 408 variables and 5 classes. In general, there is no restrictions for increasing the number of classes and variables, although we have not tried this yet.
+We have tested this package with a maximum of 408 variables and 5 classes. In general, there are no restrictions for increasing the number of classes and variables, although we have not tried this yet.
 
+[1]Huttunen, H.,Manninen, T., Kauppi, J.-P., Tohka, J.: Mind reading with regularized multinomial logistic regression. Mach. Vis. Appl. 24(6), 1311–1325 (2013).
+
+[2]Klami, A., Ramkumar, P., Virtanen, S., Parkkonen, L., Hari, R., Kaski, S.: ICANN/PASCAL2 challenge: MEG mind reading. Overview and results. In: Klami, A. (ed.) Proceedings of ICANN/PASCAL2 Challenge: MEG Mind Reading, Aalto University Publication series SCIENCE + TECHNOLOGY, pp. 3–19. Aalto University (2011).
+
+[3]Lourenço Bandeira, Jorge S. Marques, Jose Saraiva, and Pedro Pina. Advances in automated detection of sand
+dunes on Mars. Earth Surface Processes and Landforms, 38(3):275–283, 2013.
 
 ## Installation Instructions
 
