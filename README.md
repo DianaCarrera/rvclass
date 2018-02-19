@@ -1,4 +1,4 @@
-# rvclass: Implementation of a supervised classification algorithm based on regular vine copulas
+# rvclass: Implementation of different variants supervised classification algorithms based on regular vine copulas
 Provides implementations of several R-vine copula-based learning methods for solving supervised classification tasks.
 
 A n-dimensional R-vine distribution represents a multivariate distribution as a factorization of univariate margins and the R-vine copula. The R-vine copula represent the dependence structure and is given by a decomposition of bivariate pair-copulas.
